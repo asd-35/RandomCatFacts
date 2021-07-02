@@ -34,6 +34,10 @@ body {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+.line{
+    animation: rainbow 15s  infinite ;
+}
+
 .butSubmit{
     background-color: greenyellow;
     border-radius: 25px;
@@ -52,6 +56,8 @@ body {
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
+
+
 
 @keyframes rainbow {
     0% {border-color: #FF0000;}
